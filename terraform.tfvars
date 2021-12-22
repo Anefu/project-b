@@ -1,0 +1,16 @@
+region              = ""
+env                 = ""
+cidr_block          = "value"
+public_subnet_size  = 1
+private_subnet_size = 1
+ssh_key_name        = 1
+nginx_ami           = "value"
+nginx_instance_type = "value"
+web_ami             = "value"
+web_instance_type   = "value"
+db_ami              = "value"
+nginx_min           = 1
+nginx_max           = 1
+web_min             = 1
+web_max             = 1
+domain_name         = "value"
