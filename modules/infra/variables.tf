@@ -53,6 +53,11 @@ variable "db_ami" {
   description = "AMI to use for db instance"
 }
 
+variable "bastion_ami" {
+  type        = string
+  description = "AMI to use for db instance"
+}
+
 variable "db_instance_type" {
   type        = string
   description = "Instance type for db instance"

@@ -9,6 +9,7 @@ nginx_instance_type = "value"
 web_ami             = "value"
 web_instance_type   = "value"
 db_ami              = "value"
+bastionbastion_ami  = "value"
 nginx_min           = 1
 nginx_max           = 1
 web_min             = 1
