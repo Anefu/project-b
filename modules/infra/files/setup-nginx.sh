@@ -1,6 +1,6 @@
 apt-get update
 apt install -y nginx
-cat << EOF < /etc/nginx/nginx.conf
+cat << EOF > /etc/nginx/nginx.conf
     server {
         server_name ${domain_name}; # company tooling site
         location ~ { # case-sensitive regular expression match
